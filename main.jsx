@@ -1,9 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import FinanzasApp from './FinanzasApp';
+import App from './App.jsx';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <FinanzasApp />
-  </React.StrictMode>
-);
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
